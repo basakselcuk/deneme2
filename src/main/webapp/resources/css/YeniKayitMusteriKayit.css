@@ -1,0 +1,160 @@
+body,h1,ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #252525;
+    font-family: sans-serif;
+}
+
+.sayfa{
+    width: 950px;
+    margin:50px auto;
+}
+
+#baslik{
+    float: left;
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+}
+
+#menu{
+    float: right;
+    list-style: none;
+    margin-top: 1em;
+}
+
+#menu li{
+    float: left;
+
+}
+
+#menu li a{
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    padding: 10px 20px;
+
+}
+
+#menu a:hover{
+    background: #444;
+    border-radius: 15px;
+}
+
+
+
+.orta{
+    margin-top: 15px;
+    background: #333;
+
+}
+
+.orta-sol{
+    float: left;
+    width: 450px;
+}
+
+
+.orta-sag{
+    float: left;
+    margin: 15px;
+    width: 470px;
+    color: #bbb;
+
+
+}
+
+
+
+
+
+
+#container {
+    width:150px;
+    position: relative;
+    margin-top:  150px;
+    margin-left: auto;
+
+}
+
+#containersol {
+    width: 450px;
+    margin: 25px auto;
+}
+
+
+
+
+.whysign {
+    float: left;
+    background-color: white;
+    width: 480px;
+    height: 347px;
+    border-radius: 0 5px 5px 0;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.signup {
+    float: left;
+    width: 300px;
+    padding: 30px 20px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px 0 0 5px;
+}
+
+[type=text] {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    border: 0;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    height: 45px;
+    line-height: 45px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    color: rgba(0,0,0,.4);
+}
+
+[type=submit] {
+    margin-top: 25px;
+    width: 80%;
+    border: 0;
+    background-color: #53CACE;
+    border-radius: 5px;
+    height: 50px;
+    color: white;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+[type='text']:focus {
+    outline: none;
+    border-color: #53CACE;
+}
+
+
+
+
+span {
+    font-size: .75em;
+    background-color: white;
+    padding: 2px 5px;
+    color: rgba(0,0,0,.6);
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+    margin: 5px;
+}
+
+span:hover {
+    color: #53CACE;
+}
+
+p:nth-of-type(2) {
+    font-size: 1em;
+}
+
